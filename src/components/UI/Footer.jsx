@@ -1,6 +1,6 @@
-export default function Header() {
+export default function Footer() {
     return (
 
-<h1> this is the header </h1>
+<h1> this is the footer </h1>
     )
 }
