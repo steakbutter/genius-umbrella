@@ -1,4 +1,4 @@
-// This is a static page mocking an "About Us" section for our fake user data
+import Form from "../components/UI/Form"
 export default function Contact() {
     return (
       <div>
