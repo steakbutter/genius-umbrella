@@ -5,7 +5,7 @@ function Form() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-
+    const [errorMessage, setErrorMessage] = useState('');
     const handleInputChange = (e) => {
         const { target } = e;
         const inputType = target.name;
@@ -28,7 +28,7 @@ function Form() {
             setErrorMessage('Email is invalid')
             return;
         }
-        alert (`Message sent`);
+        alert (`Message sent ${name}`);
         
         setName('');
         setEmail('');
