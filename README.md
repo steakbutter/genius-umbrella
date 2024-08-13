@@ -1,7 +1,19 @@
 # Genius Umbrella
 
 ## Description
-React Portfolio link: https://lambent-monstera-dd82d0.netlify.app/
+React Portfolio link: https://lambent-monstera-dd82d0.netlify.app/ <br>
+This is a static webpage using React. <br>
+Having a react website solves the problem of the server taking too long while loading assets and content. <br>
+By having a virtual DOM I learned that the site updates just the components that need to be updated. The other components are cached so it makes the user experience faster.
+
+## Usage
+Go to https://lambent-monstera-dd82d0.netlify.app/ <br>
+The "about me" page will act as the homepage also <br>
+![alt text](<src/assets/About me page.png>) <br><br>
+Click on the portfolio and each image will send you to the deployed application <br>
+![alt text](<src/assets/portfolio page.png>) <br><br>
+the Contact page will send you to a form where you could enter your email and a message you want to deliver to the owner of the portfolio. <br>
+![alt text](<src/assets/contact page.png>)
 
 ## User Story
 
